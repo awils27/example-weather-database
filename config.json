@@ -1,0 +1,22 @@
+{
+  "LOCATIONS": [
+    {
+      "LOCATION": "BRISBANE",
+      "LAT": -27.474715,
+      "LON": 153.028302,
+      "TZ": "Australia/Brisbane",
+      "Observations": true,
+      "FC3HR": true,
+      "FC7DAY": true
+    },
+    {
+      "LOCATION": "SYDNEY",
+      "LAT": -33.858038,
+      "LON": 151.214741,
+      "TZ": "Australia/Sydney",
+      "Observations": true,
+      "FC3HR": true,
+      "FC7DAY": false
+    }
+  ]
+}
