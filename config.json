@@ -16,7 +16,61 @@
       "TZ": "Australia/Sydney",
       "Observations": true,
       "FC3HR": true,
-      "FC7DAY": false
+      "FC7DAY": true
+    },
+    {
+      "LOCATION": "CANBERRA",
+      "LAT": -35.305296,
+      "LON": 149.127088,
+      "TZ": "Australia/Canberra",
+      "Observations": true,
+      "FC3HR": true,
+      "FC7DAY": true
+    },
+    {
+      "LOCATION": "MELBOURNE",
+      "LAT": -37.817301,
+      "LON": 144.951029,
+      "TZ": "Australia/Melbourne",
+      "Observations": true,
+      "FC3HR": true,
+      "FC7DAY": true
+    },
+    {
+      "LOCATION": "HOBART",
+      "LAT": -42.882193,
+      "LON": 147.327656,
+      "TZ": "Australia/Hobart",
+      "Observations": true,
+      "FC3HR": true,
+      "FC7DAY": true
+    },
+    {
+      "LOCATION": "ADELAIDE",
+      "LAT": -34.929196,
+      "LON": 138.599916,
+      "TZ": "Australia/Adelaide",
+      "Observations": true,
+      "FC3HR": true,
+      "FC7DAY": true
+    },
+    {
+      "LOCATION": "PERTH",
+      "LAT": -31.960115,
+      "LON": 115.865159,
+      "TZ": "Australia/Perth",
+      "Observations": true,
+      "FC3HR": true,
+      "FC7DAY": true
+    },
+    {
+      "LOCATION": "DARWIN",
+      "LAT": -12.453677,
+      "LON": 130.84169,
+      "TZ": "Australia/Darwin",
+      "Observations": true,
+      "FC3HR": true,
+      "FC7DAY": true
     }
   ]
 }

@@ -29,14 +29,14 @@ with sqlite3.connect("weather.sqlite") as conn:
         cols = list(row.keys())
 
         # Columns we will insert: all JSON columns + an UPDATED_AT timestamp.
-        insert_cols = cols + ["CREATED"]
+        insert_cols = cols + ["UPDATED"]
 
         # Build the INSERT column list and matching placeholders:
         insert_cols_sql = ", ".join(quote_ident(c) for c in insert_cols)
         placeholders = ", ".join(["?"] * len(insert_cols))
 
         # Columns we will update if a conflict occurs.
-        update_cols = cols + ["CREATED"]
+        update_cols = cols + ["UPDATED"]
         update_sql = ", ".join(
             f'{quote_ident(c)} = excluded.{quote_ident(c)}' for c in update_cols
         )

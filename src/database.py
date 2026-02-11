@@ -20,7 +20,7 @@ locations_creation_query = """
         OBSERVATIONS INT,
         FC3HR INT,
         FC7DAY INT,
-        CREATED INT
+        UPDATED INT
     );
 """
 

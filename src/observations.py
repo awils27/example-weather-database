@@ -44,7 +44,7 @@ with sqlite3.connect("weather.sqlite") as conn:
     cur = conn.cursor()
 
     # Pull your known locations (adjust column names if different)
-    cur.execute("SELECT LOCATION, LAT, LON FROM LOCATIONS")
+    cur.execute("SELECT LOCATION, LAT, LON FROM LOCATIONS WHERE OBSERVATIONS = 1")
     locations = cur.fetchall()
 
     session = requests.Session()
